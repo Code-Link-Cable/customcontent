@@ -10,9 +10,9 @@
 			<file name="items.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/lost-mines-phandelver/items.xml" />
 		</update>
 	</info>	
-	<element name="Dragonguard" type="Magic Item" source="Lost Mine of Phandelver" id="ID_WOTC_LMOP_MAGIC_ITEM_DRAGONGUARD">
+	<element name="Coolplate" type="Magic Item" source="Custom Content by CodeLink" id="ID_WOTC_LMOP_MAGIC_ITEM_DRAGONGUARD">
 		<description>
-			<p>This +1 breastplate has a gold dragon motif worked into its design. Created for a human hero of Neverwinter named Tergon, it grants its wearer advantage on saving throws against the breath weapons of creatures that have the dragon type.</p>
+			<p>This +1 breastplate is cool.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
