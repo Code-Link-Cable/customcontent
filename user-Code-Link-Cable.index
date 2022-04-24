@@ -9,5 +9,6 @@
 	<files>
 		<file name="file1.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file1.xml" />
 		<file name="file2.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file2.xml" />
+		<file name="file3.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file3.xml" />
 	</files>
 </index>
