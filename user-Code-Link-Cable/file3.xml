@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>OathSnaker</name>
-		<description>The OathSnaker Sacred Oath for the Paladin</description>
-		<author url="http://localhost>Wizards of the Coast</author>
-		<update version="0.0.8">
-			<file name="file3.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/file3.xml" />
+		<name>File 3</name>
+		<update version="1.0.0">
+			<file name="file1.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file3.xml" />
 		</update>
-	</info>
+	</info>	
 
 <element name="OathSnaker" type="Archetype" source="Dungeon Master’s Guide" id="ID_DMG_ARCHETYPE_PALADIN_OATHBREAKER">
 		<supports>Sacred Oath</supports>
