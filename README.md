@@ -1,7 +1,7 @@
 # repositoryname
 additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
 
-index url: https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable.index
+index url: https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/Code-Link-Cable.index
 
 ---
 
