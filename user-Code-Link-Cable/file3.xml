@@ -3,7 +3,7 @@
 	<info>
 		<name>File 3</name>
 		<update version="1.0.0">
-			<file name="file1.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file3.xml" />
+			<file name="file3.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file3.xml" />
 		</update>
 	</info>	
 
