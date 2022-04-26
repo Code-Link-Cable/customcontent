@@ -22,6 +22,9 @@
 		</setters>
 		<rules>
 			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<select type="Proficiency" name="Musical Instrument Proficiency, Reveler" supports="Musical Instrument" />
 		</rules>
 	</element>
 </elements>
