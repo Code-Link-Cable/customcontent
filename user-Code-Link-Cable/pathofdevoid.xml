@@ -48,12 +48,19 @@
 		<description>
 			<p>You gain immunity to disease and petrification.</p>
 		</description>
+		<sheet>
+			<description>
+				<p>You gain immunity to disease and petrification.</p>
+			</description>
+		</sheet>
 	</element>
 	<element name="Channel Mind" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_CHANNEL_MIND">
 		<supports>Devoid Powers</supports>
-		<description>
-			<p>You can ignore spell components for a spell provided by Path of the Devoid once per long rest.</p>
-		</description>
+		<sheet>
+			<description>
+				<p>You can ignore spell components for a spell provided by Path of the Devoid once per long rest.</p>
+			</description>
+		</sheet>
 	</element>
 	<element name="Brute Strength" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_BRUTE_STRENGTH">
 		<supports>Devoid Powers</supports>
@@ -63,29 +70,54 @@
 		<rules>
 			<stat name="strength" value="1" bonus="enhancement" />
 		</rules>
+		<sheet>
+			<description>
+				<p>You gain +1 to your strength ability score.</p>
+			</description>
+		</sheet>
 	</element>
 	<element name="Battle Cry" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_BATTLECRY">
 		<supports>Devoid Powers</supports>
 		<description>
 			<p>You can dispel the frightened or charmed condition on an ally once per long rest.</p>
 		</description>
+		<sheet>
+			<description>
+				<p>You can dispel the frightened or charmed condition on an ally once per long rest.</p>
+			</description>
+		</sheet>
 	</element>
 	<element name="Arcane Rage" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_ARCANE_RAGE">
 		<supports>Devoid Powers</supports>
 		<description>
 			<p>While raging you can expend an amount of health to recharge a spell usage from this subclass. To recharge Enemies Abound you must sacrifice 1/9th of your total health, to recharge Phantasmal Killer you must sacrifice 1/6th of your total health, and to recharge Geas you must sacrifice 1/3rd of your total health. This ability can only be used once per long rest.</p>
 		</description>
+		<sheet>
+			<description>
+				<p>While raging you can expend an amount of health to recharge a spell usage from this subclass. To recharge Enemies Abound you must sacrifice 1/9th of your total health, to recharge Phantasmal Killer you must sacrifice 1/6th of your total health, and to recharge Geas you must sacrifice 1/3rd of your total health. This ability can only be used once per long rest.</p>
+			</description>
+		</sheet>
 	</element>
 	<element name="Silencing Blow" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_SILENCING_BLOW">
 		<supports>Devoid Powers</supports>
 		<description>
 			<p>When you hit an enemy while raging you have a chance to silence them. The enemy has to make a saving throw of DC 8 + your strength modifier + your proficiency bonus or be silenced until the end of their next turn. This ability can only target 1 enemy and can only be used once successfully per short rest.</p>
 		</description>
+		<sheet>
+			<description>
+				<p>When you hit an enemy while raging you have a chance to silence them. The enemy has to make a saving throw of DC 8 + your strength modifier + your proficiency bonus or be silenced until the end of their next turn. This ability can only target 1 enemy and can only be used once successfully per short rest.</p>
+			</description>
+		</sheet>
 	</element>
 	<element name="Psychic Instinct" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_PSYCHIC_INSTINCT">
 		<supports>Devoid Powers</supports>
 		<description>
 			<p>You can reroll a wisdom ability check or saving throw once per long rest. You must declare you are using this ability after you roll and you cannot reroll a critical failure.</p>
 		</description>
+		<sheet>
+			<description>
+			<p>You can reroll a wisdom ability check or saving throw once per long rest. You must declare you are using this ability after you roll and you cannot reroll a critical failure.</p>
+			</description>
+		</sheet>
 	</element>
 </elements>
