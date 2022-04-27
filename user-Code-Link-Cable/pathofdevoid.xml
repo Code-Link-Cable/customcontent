@@ -41,7 +41,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype Feature" name="Devoid Powers" supports="Devoid Powers" />
+			<select type="Archetype Feature" name="Devoid Powers" supports="Devoid Powers" number="2"/>
 		</rules>
 	</element>
 
