@@ -32,17 +32,17 @@
 	</element>
 	<element name="Devoid Abilities" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_DEVOID_ABILITIES">
 		<description>
-			<p>Your link to the divine allows you to learn spells from the cleric class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the cleric spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.</p>
-			<p class="indent">In addition, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
+			<p>Test</p>
+			<p class="indent">Test</p>
 			<table>
 				<thead>
-					<tr><td>Affinity</td><td>Spell</td></tr>
+					<tr><td>Test</td><td>Test</td></tr>
 				</thead>
-				<tr><td>Good</td><td><i>cure wounds</i></td></tr>
-				<tr><td>Evil</td><td><i>inflict wounds</i></td></tr>
-				<tr><td>Law</td><td><i>bless</i></td></tr>
-				<tr><td>Chaos</td><td><i>bone</i></td></tr>
-				<tr><td>Neutrality</td><td><i>protectionfrom evil and good</i></td></tr>
+				<tr><td>Test</td><td><i>cure wounds</i></td></tr>
+				<tr><td>Test</td><td><i>inflict wounds</i></td></tr>
+				<tr><td>Test</td><td><i>bless</i></td></tr>
+				<tr><td>Test</td><td><i>bone</i></td></tr>
+				<tr><td>Test</td><td><i>protectionfrom evil and good</i></td></tr>
 			</table>
 		</description>
 		<spellcasting name="Sorcerer" extend="true">
@@ -50,7 +50,7 @@
 		</spellcasting>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype Feature" name="Affinity" supports="Divine Soul Affinity" />
+			<select type="Archetype Feature" name="Devoid Abilities" supports="Devoid Abilities" />
 		</rules>
 	</element>
 
