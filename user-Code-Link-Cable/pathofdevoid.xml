@@ -13,7 +13,7 @@
 			<p>Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.</p>
 			<p class="indent">A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.</p>
 			<p class="indent">In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.</p>			
-			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_DIVINE_MAGIC" />
+			<div element="ID_KRANK_DEVOID_ABILITIES" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING" />
 			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS" />
@@ -50,12 +50,12 @@
 		</spellcasting>
 		<sheet display="false"/>
 		<rules>
-			<select type="Archetype Feature" name="Devoid Abilities" supports="Devoid Abilities" />
+			<select type="Archetype Feature" name="Devoid Powers" supports="Devoid Powers" />
 		</rules>
 	</element>
 
 	<element name="Preservation" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_PRESERVATION">
-		<supports>Devoid Abilities</supports>
+		<supports>Devoid Powers</supports>
 		<description>
 			<p>You gain immunity to disease and petrification.</p>
 		</description>
