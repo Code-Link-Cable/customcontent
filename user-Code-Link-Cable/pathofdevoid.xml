@@ -49,6 +49,7 @@
 				<tr><td>Channel Mind</td><td><i>You can ignore spell components for a spell provided by Path of the Devoid once per long rest.</i></td></tr>
 				<tr><td>Brute Strength</td><td><i>You gain +1 to your strength modifier.</i></td></tr>
 			</table>
+			<description/>
 		<sheet display="false"/>
 		<rules>
 			<select type="Archetype Feature" name="Devoid Abilities" supports="Devoid Abilities" />
