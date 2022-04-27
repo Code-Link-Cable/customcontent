@@ -35,6 +35,8 @@
 				<tr><td>Battle Cry</td><td><i>You can dispel the frightened or charmed condition on an ally once per long rest.</i></td></tr>
 				<tr><td>Arcane Rage</td><td><i>While raging you can expend an amount of health to recharge a spell usage from this subclass. To recharge Enemies Abound you must sacrifice 1/9th of your total health, to recharge Phantasmal Killer you must sacrifice 1/6th of your total health, and to recharge Geas you must sacrifice 1/3rd of your total health. This ability can only be used once per long rest.</i></td></tr>
 				<tr><td>Silencing Blow</td><td><i>When you hit an enemy while raging you have a chance to silence them. The enemy has to make a saving throw of DC 8 + your strength modifier + your proficiency bonus or be silenced until the end of their next turn. This ability can only target 1 enemy and can only be used once successfully per short rest.</i></td></tr>
+				<tr><td>Channel Mind</td><td><i>You can ignore spell components for a spell provided by Path of the Devoid once per long rest.</i></td></tr>
+				<tr><td>Brute Strength</td><td><i>You gain +1 to your strength modifier.</i></td></tr>
 			</table>
 		</description>
 		<sheet display="false"/>
@@ -49,90 +51,40 @@
 			<p>You gain immunity to disease and petrification.</p>
 		</description>
 	</element>
-	<element name="Evil" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_EVIL">
-		<supports>Divine Soul Affinity</supports>
+	<element name="Channel Mind" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_CHANNEL_MIND">
+		<supports>Devoid Powers</supports>
 		<description>
-			<p>You learn the <i>inflict wounds</i> spell. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
-			<div element="ID_PHB_SPELL_INFLICT_WOUNDS" />
+			<p>You can ignore spell components for a spell provided by Path of the Devoid once per long rest.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" spellcasting="Sorcerer" />
-		</rules>
 	</element>
-	<element name="Law" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_LAW">
-		<supports>Divine Soul Affinity</supports>
+	<element name="Brute Strength" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_BRUTE_STRENGTH">
+		<supports>Devoid Powers</supports>
 		<description>
-			<p>You learn the <i>bless</i> spell. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
-			<div element="ID_PHB_SPELL_BLESS" />
+			<p>You gain +1 to your strength modifier.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BLESS" spellcasting="Sorcerer" />
-		</rules>
 	</element>
-	<element name="Chaos" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_CHAOS">
-		<supports>Divine Soul Affinity</supports>
+	<element name="Battle Cry" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_BATTLECRY">
+		<supports>Devoid Powers</supports>
 		<description>
-			<p>You learn the <i>bane</i> spell. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
-			<div element="ID_PHB_SPELL_BANE" />
+			<p>You can dispel the frightened or charmed condition on an ally once per long rest.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_BANE" spellcasting="Sorcerer" />
-		</rules>
 	</element>
-	<element name="Neutrality" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_NEUTRALITY">
-		<supports>Divine Soul Affinity</supports>
+	<element name="Arcane Rage" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_ARCANE_RAGE">
+		<supports>Devoid Powers</supports>
 		<description>
-			<p>You learn the <i>protection from evil and good</i> spell. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
-			<div element="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
+			<p>While raging you can expend an amount of health to recharge a spell usage from this subclass. To recharge Enemies Abound you must sacrifice 1/9th of your total health, to recharge Phantasmal Killer you must sacrifice 1/6th of your total health, and to recharge Geas you must sacrifice 1/3rd of your total health. This ability can only be used once per long rest.</p>
 		</description>
-		<sheet display="false">
-			<description>You learn the <i>protection from evil and good</i> spell.</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" spellcasting="Sorcerer" />
-		</rules>
 	</element>
-
-	<element name="Favored by the Gods" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_FAVORED_BY_THE_GODS">
+	<element name="Silencing Blow" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_SILENCING_BLOW">
+		<supports>Devoid Powers</supports>
 		<description>
-			<p>Starting at 1st level, divine power guards your destiny. If you fail a saving throw or miss with an attack roll, you can roll 2d4 and add it to the total, possibly changing the outcome. Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+			<p>When you hit an enemy while raging you have a chance to silence them. The enemy has to make a saving throw of DC 8 + your strength modifier + your proficiency bonus or be silenced until the end of their next turn. This ability can only target 1 enemy and can only be used once successfully per short rest.</p>
 		</description>
-		<sheet usage="1/Short Rest">
-			<description>If you fail a saving throw or miss with an attack roll, you can roll 2d4 and add it to the total, possibly changing the outcome.</description>
-		</sheet>
 	</element>
-	<element name="Empowered Healing" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_EMPOWERED_HEALING">
+	<element name="Psychic Instinct" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_PSYCHIC_INSTINCT">
+		<supports>Devoid Powers</supports>
 		<description>
-			<p>Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't incapacitated. You can use this feature only once per turn.</p>
+			<p>You can reroll a wisdom ability check or saving throw once per long rest. You must declare you are using this ability after you roll and you cannot reroll a critical failure.</p>
 		</description>
-		<sheet>
-			<description>Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't incapacitated. You can use this feature only once per turn.</description>
-		</sheet>
-	</element>
-	<element name="Otherworldly Wings" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_OTHERWORLDLY_WINGS">
-		<description>
-			<p>Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're incapacitated, you die, or you dismiss them as a bonus action.</p>
-			<p class="indent">The affinity you chose for your Divine Magic feature determines the appearance of the spectral wings: eagle wings for good or law, bat wings for evil or chaos, and dragonfly wings for neutrality.</p>
-		</description>
-		<sheet>
-			<description>You can use a bonus action to manifest a pair of spectral {{otherworldly wings appearance}} from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're incapacitated, you die, or you dismiss them as a bonus action.</description>
-		</sheet>
-		<rules>
-			<stat name="otherworldly wings appearance" value="eagle wings" inline="true" requirements="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_GOOD||ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_LAW" />
-			<stat name="otherworldly wings appearance" value="bat wings" inline="true" requirements="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_EVIL||ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_CHAOS" />
-			<stat name="otherworldly wings appearance" value="dragonfly wings" inline="true" requirements="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_AFFINITY_NEUTRALITY" />
-		</rules>
-	</element>
-	<element name="Unearthly Recovery" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DIVINE_SOUL_UNEARTHLY_RECOVERY">
-		<description>
-			<p>At 18th level, you gain the ability to overcome grievous injuries. As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.</p>
-			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
-		</description>
-		<sheet usage="1/Long Rest">
-			<description>As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.</description>
-		</sheet>
 	</element>
 </elements>
