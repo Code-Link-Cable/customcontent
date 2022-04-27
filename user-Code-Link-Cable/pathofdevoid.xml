@@ -20,7 +20,6 @@
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_KRANK_DEVOID_ABILITIES" level="1" />
-			<grant type="Archetype Feature" id="ID_KRANK_DEVOID_ABILITIES" level="5" />
 		</rules>
 	</element>
 	<element name="Devoid Abilities" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_DEVOID_ABILITIES">
