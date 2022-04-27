@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Path of Devoid</name>
+		<update version="1.0.0">
+			<file name="pathofdevoid.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/pathofdevoid.xml" />
+		</update>
+	</info>
+<elements>
 
 	<element name="Path of Devoid" type="Archetype" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID">
 		<supports>Primal Path</supports>
