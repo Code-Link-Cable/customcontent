@@ -62,6 +62,9 @@
 		<description>
 			<p>You gain +1 to your strength modifier.</p>
 		</description>
+		<rules>
+			<stat name="strength" value="1" bonus="enhancement" />
+		</rules>
 	</element>
 	<element name="Battle Cry" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_PATH_OF_DEVOID_BATTLECRY">
 		<supports>Devoid Powers</supports>
