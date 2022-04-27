@@ -38,11 +38,11 @@
 				<thead>
 					<tr><td>Test</td><td>Test</td></tr>
 				</thead>
-				<tr><td>Test</td><td><i>cure wounds</i></td></tr>
-				<tr><td>Test</td><td><i>inflict wounds</i></td></tr>
-				<tr><td>Test</td><td><i>bless</i></td></tr>
-				<tr><td>Test</td><td><i>bone</i></td></tr>
-				<tr><td>Test</td><td><i>protectionfrom evil and good</i></td></tr>
+				<tr><td>Preservation</td><td><i>You gain immunity to disease and petrification.</i></td></tr>
+				<tr><td>Psychic Instinct</td><td><i>You can reroll a wisdom ability check or saving throw once per long rest. You must declare you are using this ability after you roll and you cannot reroll a critical failure.</i></td></tr>
+				<tr><td>Battle Cry</td><td><i>You can dispel the frightened or charmed condition on an ally once per long rest.</i></td></tr>
+				<tr><td>Arcane Rage</td><td><i>While raging you can expend an amount of health to recharge a spell usage from this subclass. To recharge Enemies Abound you must sacrifice 1/9th of your total health, to recharge Phantasmal Killer you must sacrifice 1/6th of your total health, and to recharge Geas you must sacrifice 1/3rd of your total health. This ability can only be used once per long rest.</i></td></tr>
+				<tr><td>Silencing Blow</td><td><i>When you hit an enemy while raging you have a chance to silence them. The enemy has to make a saving throw of DC 8 + your strength modifier + your proficiency bonus or be silenced until the end of their next turn. This ability can only target 1 enemy and can only be used once successfully per short rest.</i></td></tr>
 			</table>
 		</description>
 		<spellcasting name="Sorcerer" extend="true">
