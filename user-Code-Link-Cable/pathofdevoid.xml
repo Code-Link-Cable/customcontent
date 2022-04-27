@@ -15,9 +15,6 @@
 			<p class="indent">TEST</p>			
 			<div element="ID_KRANK_DEVOID_ABILITIES" />
 		</description>
-		<sheet>
-			<description>[Insert Sheet Description for Archetype].</description>
-		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_KRANK_DEVOID_ABILITIES" level="3" />
 		</rules>
