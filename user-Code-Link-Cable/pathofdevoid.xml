@@ -32,19 +32,17 @@
 	</element>
 	<element name="Devoid Abilities" type="Archetype Feature" source="K.R.A.N.K" id="ID_KRANK_DEVOID_ABILITIES">
 		<description>
-			<p>[Insert Description of Ability List Here]</p>
-			<p class="indent">[Insert Table Intro Here]</p>
+			<p>Your link to the divine allows you to learn spells from the cleric class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the cleric spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.</p>
+			<p class="indent">In addition, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a Spell from the cleric spell list.</p>
 			<table>
 				<thead>
-					<tr><td>Abilities</td><td>Description</td></tr>
+					<tr><td>Affinity</td><td>Spell</td></tr>
 				</thead>
-				<tr><td>Preservation</td><td><i>You gain immunity to disease and petrification.</i></td></tr>
-				<tr><td>Psychic Instinct</td><td><i>You can reroll a wisdom ability check or saving throw once per long rest. You must declare you are using this ability after you roll and you cannot reroll a critical failure.</i></td></tr>
-				<tr><td>Battle Cry</td><td><i>You can dispel the frightened or charmed condition on an ally once per long rest.</i></td></tr>
-				<tr><td>Arcane Rage</td><td><i>While raging you can expend an amount of health to recharge a spell usage from this subclass. To recharge Enemies Abound you must sacrifice 1/9th of your total health, to recharge Phantasmal Killer you must sacrifice 1/6th of your total health, and to recharge Geas you must sacrifice 1/3rd of your total health. This ability can only be used once per long rest.</i></td></tr>
-				<tr><td>Silencing Blow</td><td><i>When you hit an enemy while raging you have a chance to silence them. The enemy has to make a saving throw of DC 8 + your strength modifier + your proficiency bonus or be silenced until the end of their next turn. This ability can only target 1 enemy and can only be used once successfully per short rest.</i></td></tr>
-				<tr><td>Channel Mind</td><td><i>You can ignore spell components for a spell provided by Path of the Devoid once per long rest.</i></td></tr>
-				<tr><td>Brute Strength</td><td><i>You gain +1 to your strength modifier.</i></td></tr>
+				<tr><td>Good</td><td><i>cure wounds</i></td></tr>
+				<tr><td>Evil</td><td><i>inflict wounds</i></td></tr>
+				<tr><td>Law</td><td><i>bless</i></td></tr>
+				<tr><td>Chaos</td><td><i>bone</i></td></tr>
+				<tr><td>Neutrality</td><td><i>protectionfrom evil and good</i></td></tr>
 			</table>
 		</description>
 		<spellcasting name="Sorcerer" extend="true">
