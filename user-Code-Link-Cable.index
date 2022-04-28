@@ -7,10 +7,9 @@
 		</update>
 	</info>
 	<files>
-		<file name="file1.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file1.xml" />
-		<file name="file2.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file2.xml" />
-		<file name="file3.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/file3.xml" />
-		<file name="pathofdevoid.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/pathofdevoid.xml" />
+		<file name="class-artificer.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/class-artificer.xml" />
+		<file name="class-bloodhunter.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/class-bloodhunter.xml" />
+		<file name="tashas-cauldron-of-everything_ncl.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/tashas-cauldron-of-everything_ncl.xml" />
 
 	</files>
 </index>
