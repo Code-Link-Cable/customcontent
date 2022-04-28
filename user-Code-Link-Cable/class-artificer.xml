@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>	
+	<info>
+        <name>class-artificer</name>
+        <update version="1.0.0">
+            <file name="class-artificer.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/class-artificer.xml" />
+        </update>
+    	</info>
 	<element name="Artificer" type="Class" source="Eberron Artificer" id="ID_ARTIFICER">
 		<description>
 			<p>Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use alchemist’s supplies to create a potent elixir, calligrapher’s supplies to inscribe a sigil of power on an ally’s armor, or tinker’s tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents.</p>
