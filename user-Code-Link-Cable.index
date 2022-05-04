@@ -9,7 +9,6 @@
 	<files>
 		
 		<file name="class-artificer.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/class-artificer.xml" />
-		<file name="monsters-of-the-multiverse.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/monsters-of-the-multiverse.xml" />
 		<file name="class-bloodhunter.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/class-bloodhunter.xml" />
             	<file name="tashas-cauldron-of-everything_ncl.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/tashas-cauldron-of-everything_ncl.xml" />
 	</files>
