@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<info>
-		<name>Monsters of the Multiverse</name>
-		<update version="1.0.0">
-			<file name="monsters-of-the-multiverse.xml" url="https://raw.githubusercontent.com/Code-Link-Cable/customcontent/master/user-Code-Link-Cable/monsters-of-the-multiverse.xml" />
-		</update>
-	</info>
 	<element name="Mordenkainen Presents: Monsters of the Multiverse" type="Source" source="Core" id="ID_WOTC_SOURCE_MONSTERS_OF_THE_MULTIVERSE">
 		<description>
 			<html>&lt;p&gt;&lt;strong&gt;&lt;em&gt;A Bestiary of Wondrous Friends And Foes For the World’s Greatest Roleplaying Game.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
